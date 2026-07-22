@@ -13,6 +13,7 @@ help:
 install:
 	@echo "Installing dependencies..."
 	uv venv
+	uv pip install /Users/okruh/Documents/PacMan/mazegenerator-2.0.2-py3-none-any.whl
 	uv pip install -r requirements.txt
 
 run:
