@@ -1,5 +1,5 @@
 ```mermaid
-%%{init: {'theme': 'base', 'themeVariables': { 'clusterBkg': '#f8f9fa', 'clusterBorder': '#ced4da', 'lineColor': '#00E5FF'}}}%%
+%%{init: {'theme': 'base', 'themeVariables': { 'clusterBkg': 'transparent', 'clusterBorder': '#555555', 'lineColor': '#00E5FF'}}}%%
 classDiagram
     namespace Entities {
         class Player {
