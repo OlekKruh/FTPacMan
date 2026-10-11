@@ -1,7 +1,7 @@
 ```mermaid
 classDiagram
     namespace Entities {
-        class Player:::blue {
+        class Player {
             +int lives
             +int score
             +float x
@@ -9,19 +9,22 @@ classDiagram
             +move(direction)
             +lose_life()
         }
+        style Player fill:#F5F5F5, stroke:#0000FF, stroke-width:2px
         
-        class Ghost:::blue {
+        class Ghost {
             +float x
             +float y
             +bool is_edible
             +chase_player()
             +run_away()
         }
+        style Ghost fill:#F5F5F5, stroke:#0000FF, stroke-width:2px
         
-        class Consumable:::blue {
+        class Consumable {
             +float x
             +float y
         }
+        style Consumable fill:#F5F5F5, stroke:#0000FF, stroke-width:2px
     }
     
     namespace Managers {
