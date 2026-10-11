@@ -1,6 +1,6 @@
 ```mermaid
 classDiagram
-    subgraph Entities
+    namespace Entities {
         class Player {
             +int lives
             +int score
@@ -22,9 +22,9 @@ classDiagram
             +float x
             +float y
         }
-    end
+    }
     
-    subgraph Managers
+    namespace Managers {
         class Man_App{
         }
         
@@ -41,9 +41,9 @@ classDiagram
         }
         
         class Man_Highscore
-    end
+    }
 
-    subgraph GFX
+    namespace GFX {
         class gfx_Screen
         class gfx_Player
         class gfx_Ghost
@@ -52,11 +52,11 @@ classDiagram
         class gfx_Menu
         class Sprites
         class Sounds
-    end
+    }
 
-    subgraph utils
+    namespace Utils {
         class Maze_Adapter
         class Cheats
         class Exits
-    end
+    }
 ```
