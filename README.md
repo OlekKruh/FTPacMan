@@ -1,6 +1,6 @@
 ```mermaid
 classDiagram
-    namespace Entities {
+    namespace Entities:::color:blue {
         class Player {
             +int lives
             +int score
