@@ -1,7 +1,7 @@
 ```mermaid
 classDiagram
-    namespace Entities:::color:blue {
-        class Player {
+    namespace Entities {
+        class Player:::blue {
             +int lives
             +int score
             +float x
@@ -10,7 +10,7 @@ classDiagram
             +lose_life()
         }
         
-        class Ghost {
+        class Ghost:::blue {
             +float x
             +float y
             +bool is_edible
@@ -18,7 +18,7 @@ classDiagram
             +run_away()
         }
         
-        class Consumable {
+        class Consumable:::blue {
             +float x
             +float y
         }
